@@ -28,6 +28,7 @@ t1.from('#profile-img', {
 t1.to('#profile-img', {
     scale: 0.9,
     repeat: -1,
+    delay: 1,
     yoyo: true,
     duration: 10
 })
