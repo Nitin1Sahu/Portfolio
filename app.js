@@ -25,3 +25,9 @@ t1.from('#profile-img', {
     duration: 1,
     opacity: 0
 })
+t1.to('#profile-img', {
+    scale: 0.9,
+    repeat: -1,
+    yoyo: true,
+    duration: 10
+})
